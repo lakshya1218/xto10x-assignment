@@ -3,8 +3,11 @@ import "./card.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { increment, decrement } from "../redux_store/action/productsAction";
+
 export default function Card({ item }) {
-  const { image, title, id, count } = item;
+  const { image, title, id, count, price } = item;
+
+
   const dispatch = useDispatch();
   function increaseItemQuantity(id) {
     dispatch(increment(id));
@@ -25,6 +28,7 @@ export default function Card({ item }) {
       </div>
       <div className="meal_title">
         <p>{title}</p>
+        <p>Price: ₹{price}</p>
       </div>
       <div className="card_addItem">
         <div>

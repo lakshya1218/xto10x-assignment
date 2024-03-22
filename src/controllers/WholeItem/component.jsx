@@ -4,6 +4,7 @@ import ItemDetails from "./ItemDetails";
 import "./styles.css";
 import { checkout, setProducts } from "../redux_store/action/productsAction";
 import { getProducts } from "../FetchedItems";
+
 function findTotal(productCart, products) {
   let sum = 0;
   productCart.forEach(

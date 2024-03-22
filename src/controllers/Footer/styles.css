@@ -1,15 +1,12 @@
 .footer {
-  border: 1px solid gray;
-  margin-bottom: 2px;
-  padding: 10px;
+  border: 1px solid #ddd; /* Change border color */
+  margin-bottom: 20px; /* Increase margin-bottom for better spacing */
+  padding: 20px; /* Increase padding for better spacing */
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: medium;
-  font-weight: 700;
+  font-size: 16px; /* Change font size to medium */
+  font-weight: bold; /* Change font weight to 700 */
 }
 
-.footer__heart {
-  color: red;
-  font-size: 25px;
-}
+

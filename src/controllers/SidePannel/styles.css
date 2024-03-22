@@ -1,0 +1,66 @@
+/* Side panel container */
+.side-panel {
+    width: 300px; /* Adjust width as needed */
+    height: 100%; /* Fill the height of the parent container */
+    position:relative; /* Fixed position to stay in view */
+    top: 0; /* Position at the top of the viewport */
+    left: 0; /* Position at the right side of the viewport */
+    background-color: #ffffff; /* Background color for the side panel */
+    box-shadow: -2px 0px 8px rgba(0, 0, 0, 0.1); /* Add a shadow to create depth */
+    z-index: 1000; /* Ensure the side panel stays above other elements */
+    padding: 20px; /* Add padding for content */
+  }
+  
+  /* Header for the side panel */
+  .side-panel h2 {
+    font-size: 20px; /* Adjust font size as needed */
+    margin-bottom: 16px; /* Add margin at the bottom */
+  }
+  
+  /* Input field for search query */
+  .side-panel input[type="text"] {
+    width: 100%; /* Fill the width of the container */
+    padding: 10px; /* Add padding */
+    margin-bottom: 16px; /* Add margin at the bottom */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    border-radius: 4px; /* Add border radius for rounded corners */
+  }
+  
+  /* Dropdown for category selection */
+  .side-panel select {
+    width: 100%; /* Fill the width of the container */
+    padding: 10px; /* Add padding */
+    margin-bottom: 16px; /* Add margin at the bottom */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    border-radius: 4px; /* Add border radius for rounded corners */
+  }
+  
+  /* Apply button */
+  .side-panel button {
+    width: 100%; /* Fill the width of the container */
+    padding: 12px; /* Add padding */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+  }
+
+  .price-filters button {
+    width: 100%; /* Fill the width of the container */
+    padding: 12px; /* Add padding */
+    background-color: #fff; /* Button background color */
+    color: #007bff; /* Text color */
+    border: solid #007bff; /* Remove border */
+    border-radius: 4px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+    margin-bottom: 5px;
+  }
+  
+  /* Apply button hover effect */
+  .side-panel button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  

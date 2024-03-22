@@ -18,6 +18,9 @@ function Header() {
         <div className="header_icon">
           <Link to="/"> Home </Link>
         </div>
+        <div className="header_icon">
+        <Link to="/add-update-product">Add/Update Product</Link>
+        </div>
         <Link to="/cart">
           {" "}
           <div className="header__cart">

@@ -4,14 +4,7 @@ import "./styles.css";
 function Footer() {
   return (
     <div className="footer">
-      Made with &nbsp; <span className="footer__heart">❤</span> &nbsp; by
-      Shashi. Get Code on &nbsp;
-      <Link
-        to={`https://github.com/unknownBalak/clothsstore`}
-        style={{ fontSize: "14px" }}
-      >
-        GITHUB
-      </Link>
+      this is an assignment submission for xto10x intern Position
     </div>
   );
 }

@@ -8,5 +8,3 @@
 
 ### axios
 
-## new Update
- stay tune will upload new working functionality

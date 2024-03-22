@@ -10,6 +10,7 @@ export function updateProductWithItsCount(products, cart) {
       id: item.id,
       image: item.image,
       count: findCound(item, cart),
+      price: item.price,
       title: item.title,
     };
   });

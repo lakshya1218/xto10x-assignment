@@ -5,6 +5,7 @@ const {
   INCREMENT,
   DECREMENT,
   SET_PRODUCTS,
+  SET_SEARCH_QUERY, 
 } = ActionTypes;
 
 export function increment(id) {
@@ -26,10 +27,15 @@ export function decrement(id) {
 // export function updateProduct(payload = {}) {
 //   return { type: UPDATE_PRODUCT_COUNTER, payload };
 // }
+
 export function setProducts(products) {
   return { type: SET_PRODUCTS, payload: products };
 }
 export function checkout() {
   console.log("This function have called");
   return { type: SET_CHECKOUT };
+}
+
+export function setSearchQuery(query) {
+  return { type: SET_SEARCH_QUERY, payload: query };
 }

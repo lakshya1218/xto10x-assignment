@@ -4,4 +4,5 @@ export const ActionTypes = {
   INCREMENT: "INCREMENT",
   DECREMENT: "DECREMENT",
   SET_CHECKOUT: "CHECKOUT",
+  SET_SEARCH_QUERY: "SET_SEARCH_QUERY", // New action type for setting search query
 };
