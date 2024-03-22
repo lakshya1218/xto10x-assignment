@@ -21,7 +21,7 @@ function TotalProducts() {
   useEffect(() => {
     async function fetchData() {
       let products = await getProducts();
-      dispatch(setProducts(products.data));
+      dispatch(setProducts(products.data.products));
     }
     fetchData();
   }, [dispatch]);
