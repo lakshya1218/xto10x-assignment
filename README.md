@@ -14,4 +14,4 @@ To run locally---
 >> cd to backend directory and run node server.js
 
 demo video >>
-https://www.loom.com/share/89e431a4e1d84b29a358453b373c9ef2
+https://www.loom.com/share/8b320e73c1674fc889d7edd67e0f5a01?sid=5efddf68-0512-45ce-97b9-d216408321ef
